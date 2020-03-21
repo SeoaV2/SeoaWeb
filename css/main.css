@@ -2,11 +2,24 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scroll-behavior:smooth;
+}
+a{
+  text-decoration: none;
+  color:#fff;
 }
 body,html{
   height:100%;
 }
-#section1{
-  height:99%;
+.section{
+  height:150%;
   /*for test*/
+}
+.vertical-align{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hidden{
+  visibility: hidden;
 }
