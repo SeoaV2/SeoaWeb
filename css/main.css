@@ -1,25 +1,6 @@
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  scroll-behavior:smooth;
+.bg-theme{
+  background: #1e90ff;
 }
-a{
-  text-decoration: none;
-  color:#fff;
-}
-body,html{
-  height:100%;
-}
-.section{
-  height:150%;
-  /*for test*/
-}
-.vertical-align{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.hidden{
-  visibility: hidden;
+.btn-outline-light:hover{
+  color: #1e90ff;
 }
