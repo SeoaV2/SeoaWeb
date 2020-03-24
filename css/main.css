@@ -1,6 +1,16 @@
+*{
+  scroll-behavior: smooth;
+}
 .bg-theme{
   background: #1e90ff;
 }
 .btn-outline-light:hover{
   color: #1e90ff;
+}
+a, a:hover {
+  color: #ffffffff;
+  text-decoration: none;
+}
+#topbar{
+  height:7vh;
 }

@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/font.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav id='topbar' class="navbar navbar-expand-lg navbar-dark theme-bg w-100 text-white bg-theme">
+    <nav id='topbar' class="navbar navbar-expand-lg navbar-dark w-100 text-white bg-theme">
       <a class="navbar-brand" href="#topbar"><img src="./favicon.png" id='logo' width='50px'> Team Seoa</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -19,16 +20,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Projects</a>
+            <a class="nav-link text-white" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Members</a>
+            <a class="nav-link text-white" href="#members">Members</a>
           </li>
         </ul>
-        <a class='d-flex' style='align-items: center;'><i class="fa fa-github fa-3x" aria-hidden="true"></i><span>&nbsp;seoa github</span></a>
-
+        <a target="_blank" rel="noopener noreferrer" class='d-flex mr-3' style='align-items: center;' href='https://github.com/SeoaV2'><i class="fab fa-github fa-3x"></i><span>&nbsp;seoa github</span></a>
+        <a target="_blank" rel="noopener noreferrer" class='d-flex' style='align-items: center;' href='https://discord.gg/BHS5pw3' ><i class="fab fa-discord fa-3x"></i><span>&nbsp;seoa discord</span></a>
       </div>
     </nav>
+    <!--여기부터는 새로 개발해야하는부분, 틀만 잡아놨어요-->
+    <div id='main' style='height:93vh'></div>
+    <div id='projects' class='bg-theme' style='height:100vh'></div>
+    <div id='members' style='height:85vh'></div>
+    <footer id='footer' class='bg-secondary' style='height:15vh'></footer>
     <!--bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
